@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["esnext", "es2018", "dom"],
+    "jsx": "react",
+    "outDir": "./dist",
+    "noEmitOnError": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./src/app.ts", "./src/routes/*"],
+  "exclude": ["node_modules", "./src/entrypoint.ts", "./src/types.ts", "./src/components/*"]
+}

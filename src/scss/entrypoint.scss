@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// Imports of all .scss files for compilation into a single .css file.
+// -----------------------------------------------------------------------------
+@charset 'UTF-8';
+
+// Helpers
+@import 'helpers/variables', 'helpers/classes';
+
+// Globals
+@import 'globals';
+
+// Layout
+@import 'layout/footer', 'layout/header';
+
+// Components
+@import 'components/Example';
