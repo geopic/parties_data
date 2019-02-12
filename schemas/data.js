@@ -7,13 +7,13 @@ const nations = [
     parties: {
       'CON': 'Conservative Party',
       'SOC': 'Labour Party',
-      'NAT': null,
+      'NAT': 'Independence Party',
       'LIB': 'Liberal Democrats',
     },
     single_issue_parties: {
       'SNP': ['Scottish National Party', 'Scottish Independence'],
-      'UKP': ['UK Independence Party', 'Euroscepticism'],
-      'PCY': ['Plaid Cymru', 'Welsh Independence']
+      'PCY': ['Plaid Cymru', 'Welsh Independence'],
+      'GRN': ['Green Party', 'Environmentalism']
     },
     extreme_parties: {
       'COM': 'Communist Party of Britain',
@@ -45,7 +45,7 @@ const nations = [
     parties: {
       'CON': 'CDU/CSU',
       'SOC': 'Sozialdemokratische Partei',
-      'NAT': 'Alternative für Deutschland',
+      'NAT': ['Alternative für Deutschland', 'Nationaldemokratische Partei'],
       'LIB': 'Freie Demokratische Partei',
     },
     single_issue_parties: {
@@ -54,7 +54,7 @@ const nations = [
     },
     extreme_parties: {
       'COM': 'Deutsche Kommunistische Partei',
-      'FAC': 'Nationaldemokratische Partei'
+      'FAC': null
     }
   },
   {
@@ -74,6 +74,34 @@ const nations = [
     extreme_parties: {
       'COM': 'Partido Comunista',
       'FAC': 'Democracia Nacional'
+    }
+  },
+  {
+    name: 'Italy',
+    code: 'ITA',
+    demonym: 'Italian',
+    system: 'Parliamentary Republic',
+    parties: {
+      'CON': 'Forza Italia',
+      'SOC': 'Partito Democratico',
+      'NAT': ['Movimento 5 Stelle', 'Fratelli d\'Italia']
+    },
+    single_issue_parties: {
+      'LGN': ['Lega Nord', 'Regionalism']
+    },
+    extreme_parties: {
+      'COM': 'Partito della Rifondazione Comunista',
+      'FAC': 'Forza Nuova'
+    }
+  },
+  {
+    name: 'United States',
+    code: 'USA',
+    demonym: 'American',
+    system: 'Federal Republic',
+    parties: {
+      'CON': 'Republican Party',
+      'LIB': 'Democratic Party'
     }
   }
 ]
