@@ -1,7 +1,7 @@
 /* tslint:disable:no-var-requires no-console */
-// -----------------------------------------------------------------------------
-// The Express setup and server start-up file.
-// -----------------------------------------------------------------------------
+// * -------------------------------------------
+// * The Express setup and server start-up file.
+// * -------------------------------------------
 import express, { Request, Response } from 'express';
 import path from 'path';
 import cookieParser from 'cookie-parser';
